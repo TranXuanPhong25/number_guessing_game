@@ -52,5 +52,5 @@ while true; do
     break
   fi
 done 
-# "$($PSQL "UPDATE users SET games_played = games_played + 1 WHERE name = '$USERNAME'")"  > /dev/null
-# "$($PSQL "UPDATE users SET best_game = MIN(best_game, $number_of_guesses) WHERE name =)" '$USERNAME')"  > /dev/null
+"$($PSQL "UPDATE users SET games_played = games_played + 1 WHERE name = '$USERNAME'")"  > /dev/null
+"$($PSQL "UPDATE users SET best_game = MIN(best_game, $number_of_guesses) WHERE name =)" '$USERNAME')"  > /dev/null
